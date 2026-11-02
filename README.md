@@ -1,4 +1,4 @@
-# 根源追溯（dsh-trace）
+# 根源追溯（dsh-reason-tree）
 
 把一件事拆成「结论 ← 理由 ← 理由的理由」，画成一棵从下往上长的树。
 
@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-dsh plugin --profile desktop add dsh-trace
+dsh plugin --profile desktop add dsh-reason-tree
 ```
 
 装完重启 DSH，左侧栏会出现「根源追溯」图标。
@@ -50,7 +50,7 @@ dsh plugin --profile desktop add dsh-trace
 
 ## 和「海马体」联动
 
-装 [dsh-hippocampus](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 之后：
+装 [海马体](https://github.com/Snerou/dsh-hippo) 之后：
 
 - 点节点详情里的「定位至海马体」→ 海马体飞到对应的文件或那一条结论
 - 海马体还没打开也没关系，请求会存 10 分钟，等你点侧栏图标时自动执行
