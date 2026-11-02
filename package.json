@@ -1,0 +1,38 @@
+{
+    "name": "dsh-reason-tree",
+    "version": "1.0.0",
+    "description": "根源追溯法面板：把结论拆成从下往上的论证树，每一支可以标成立/不成立/待拆，并跳转到海马体看原文。",
+    "type": "module",
+    "main": "lib/index.js",
+    "exports": {
+        ".": "./lib/index.js",
+        "./client": "./lib/client.js",
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "lib",
+        "cordis.patch.yml",
+        "README.md",
+        "LICENSE"
+    ],
+    "keywords": [
+        "dsh",
+        "plugin",
+        "reasoning",
+        "trace",
+        "argument-tree",
+        "decision"
+    ],
+    "license": "MIT",
+    "dsh": {
+        "bundle": {
+            "patch": "./cordis.patch.yml"
+        },
+        "client": {
+            "platform": "web",
+            "inject": [
+                "@deepseek-ai/dsh-client-ui-slots"
+            ]
+        }
+    }
+}
