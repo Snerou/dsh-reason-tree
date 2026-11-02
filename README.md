@@ -50,7 +50,7 @@ dsh plugin --profile desktop add dsh-reason-tree
 
 ## 和「海马体」联动
 
-装 [海马体](https://github.com/Krichy07/dsh-hippo) 之后：
+装 [海马体](https://github.com/Snerou/dsh-hippo) 之后：
 
 - 点节点详情里的「定位至海马体」→ 海马体飞到对应的文件或那一条结论
 - 海马体还没打开也没关系，请求会存 10 分钟，等你点侧栏图标时自动执行
