@@ -1,6 +1,6 @@
-﻿{
+{
     "name":  "dsh-reason-tree",
-    "version":  "1.0.5",
+    "version":  "1.0.6",
     "description":  "根源追溯法面板：把结论拆成从下往上的论证树，每一支可以标成立/不成立/待拆，并跳转到海马体看原文。",
     "type":  "module",
     "main":  "lib/index.js",
